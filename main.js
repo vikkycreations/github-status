@@ -36,7 +36,7 @@ window.onload = function () {
   const request = new XMLHttpRequest();
   
   request.onload = function (res) {
-    console.log(res.target.responseText);
+    //console.log(res.target.responseText);
     githubstatus = res.target.responseText;
     init();
   }
