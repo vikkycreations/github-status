@@ -67,7 +67,7 @@ main {
           animation: spin 0.5s linear infinite;
 }
 
-.current-status {
+.heading {
   font-size: 1.4em;
   font-weight: 500;
   margin-top: 0;
@@ -215,6 +215,35 @@ main {
 
 .status-indicator[data-color='blue'] {
   color: #3498db;
+}
+
+.repo-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.repo-link a {
+  color: dodgerblue;
+  font-size: 1.1em;
+  font-weight: 600;
+  text-decoration: none;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.repo-link a:hover {
+  text-decoration: underline;
 }
 
 .error {
